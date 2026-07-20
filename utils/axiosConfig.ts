@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://api.acquiescent.in/api',
+    baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
     timeout: 5000,
 });
 
