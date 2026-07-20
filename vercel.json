@@ -4,7 +4,6 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "installCommand": "pnpm install --legacy-peer-deps",
-  "packageManager": "pnpm@10.x",
   "headers": [
     {
       "source": "/static/(.*)",
